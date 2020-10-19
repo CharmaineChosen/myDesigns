@@ -5,13 +5,13 @@ ion-content.background{
 }
 
     .container{
-      display: flex;
-      flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-         height: 50%;
-     justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
     font-size: 12px;    
     }
 
@@ -27,9 +27,16 @@ ion-content.background{
 
     ion-item{
         color: #004E45;
+        font-size: 14px;
         opacity: 0.8;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
+    ion-input{
+        font-size: 14px;
+        color: #004E45;
+        font-family: 'Josefin Sans', sans-serif;
+    }
     ion-icon{
         display: flex;
         margin-right: 1em;
@@ -39,33 +46,38 @@ ion-content.background{
     .signin{
         margin-right:10px;
         margin-top: 100px;
+        margin-bottom: 10px;
         color:white;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
     .signup{
         margin-left:0px;
         margin-top: 100px;
+        margin-bottom: 10px;
         color:#F5FF7D;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
     .char{
         color:white;
         margin-top: 100px;
+        margin-bottom: 10px;
     }
     
-    .words{
-        margin-top: 50px;
-        font-size:12px;
-        font-family: Jost;
-    }
+    // .words{
+    //     margin-top: 50px;
+    //     font-size:12px;
+        
+    // }
 
     .flex-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-top-left-radius: 10%;
-        border-top-right-radius: 10%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
         // border-bottom-left-radius: 10%;
         // border-bottom-right-radius: 10%;
         // width: 800px;
@@ -87,21 +99,27 @@ ion-content.background{
 //      margin-top:100px;
 //      font-size: 12px;
  
- p{
-     text-align: center;
-     color: #2E8B57;
+p{
+    text-align: center;
+    color: #004E45;
+    font-size:16px;
+    font-family: 'Josefin Sans', sans-serif;
  }
 
 ion-button.button {
     display:flex;
     flex-direction: column;
-    --color: #008000;
+    --color: #004E45;
     --background:#F5FF7D;
-    margin-top: 168px;
+    margin-top: 170px;
+    margin-bottom: 30px;
     font-size: 12px;
     text-transform: initial;
     border-radius:50px;
-    width: 250px;
+    width: 220px;
     margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    
 
 }
