@@ -1,7 +1,7 @@
 ion-content.background{
     //--ion-background-color:#00FFFF;
    --background: url(../../../assets/icon/waves1.jfif) 0 0/100% 100% no-repeat;
-    
+    //height: 100%;
 }
 
     .container{
@@ -10,7 +10,7 @@ ion-content.background{
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 70%;
+         height: 50%;
      justify-content: space-evenly;
     font-size: 12px;    
     }
@@ -25,8 +25,14 @@ ion-content.background{
         margin-left:90px ;
     }
 
-    ion-input.email{
-        color:green;
+    ion-item{
+        color: #004E45;
+        opacity: 0.8;
+    }
+
+    ion-icon{
+        display: flex;
+        margin-right: 1em;
     }
     
     
@@ -39,7 +45,7 @@ ion-content.background{
     .signup{
         margin-left:0px;
         margin-top: 100px;
-        color:#FFFF00;
+        color:#F5FF7D;
     }
 
     .char{
@@ -90,8 +96,8 @@ ion-button.button {
     display:flex;
     flex-direction: column;
     --color: #008000;
-    --background:#FFFF00;
-    margin-top: 200px;
+    --background:#F5FF7D;
+    margin-top: 168px;
     font-size: 12px;
     text-transform: initial;
     border-radius:50px;
